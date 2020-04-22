@@ -4,9 +4,21 @@ h1, h2 {
 
 body {
   font-size: 18px;
+  display: block;
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1296px;
+  margin: auto;
+}
+
+.iframe-wrapper {
+  text-align: center;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+}
+
+iframe {
   margin: auto;
 }
